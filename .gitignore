@@ -1,0 +1,41 @@
+.DS_Store
+# --- [ 1. 컴파일 결과물 (Compiled Object files) ] ---
+*.slo
+*.lo
+*.o
+*.obj
+*.gch
+*.pch
+
+# --- [ 2. 라이브러리 및 정적 파일 ] ---
+*.so
+*.dylib
+*.dll
+*.lib
+*.lai
+*.la
+*.a
+
+# --- [ 3. 실행 파일 (Executable files) ] ---
+# 특정 이름을 지정하거나, 확장자가 없는 바이너리를 제외
+*.out
+*.exe
+*.app
+
+# --- [ 4. IDE 및 에디터 설정 (VS Code / Xcode) ] ---
+.vscode/
+.vs/
+.idea/
+*.swp
+*.swo
+.DS_Store
+DerivedData/
+
+# --- [ 5. 빌드 시스템 (CMake / Make) ] ---
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+install_manifest.txt
+Makefile
+build/
